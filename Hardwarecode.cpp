@@ -72,8 +72,6 @@ void loop()
        Serial.println(Firebase.error());
      }    
 
-
-
 fireStatus = Firebase.getString("TRAFFIC/COUNT"); 
 
 Serial.println(fireStatus);
@@ -133,6 +131,4 @@ if(fireStatus != "")
   }
    Firebase.setString("Traffic/SIGN", ""); 
 }
-
-
 }
