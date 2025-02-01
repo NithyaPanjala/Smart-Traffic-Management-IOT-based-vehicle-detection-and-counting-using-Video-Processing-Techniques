@@ -24,7 +24,6 @@ def getCenter(x, y, w, h):
     cy = y + y1
     return cx, cy
 
-
 # Web camera
 cap = cv2.VideoCapture('video.mp4')
 
