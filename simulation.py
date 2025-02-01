@@ -22,7 +22,6 @@ firebase_admin.initialize_app(cred, {
 
 matplotlib.use("TkAgg")
 
-
 cmd = "python vehicle_detection.py"
 #os.system(cmd)
 
